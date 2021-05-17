@@ -16,31 +16,16 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": [
-    "react",
-    "@typescript-eslint"
-  ],
+  "plugins": ["react", "@typescript-eslint"],
   "rules": {
-    "react/react-in-jsx-scope": "off", 
-    "react/display-name": "off", 
-    "no-var": 2, 
-    "no-undef": 2, 
+    "react/react-in-jsx-scope": "off",
+    "react/display-name": "off",
+    "no-var": 2,
+    "no-undef": 2,
     "no-param-reassign": 2,
-    "indent": [
-      "error",
-      2
-    ],
-    "linebreak-style": [
-      "error",
-      "windows"
-    ],
-    "quotes": [
-      "error",
-      "double"
-    ],
-    "semi": [
-      "error",
-      "always"
-    ]
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "windows"],
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"]
   }
 }
